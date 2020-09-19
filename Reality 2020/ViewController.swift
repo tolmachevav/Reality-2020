@@ -6,7 +6,7 @@
 //  Copyright © 2020 Андрей Толмачев. All rights reserved.
 //
 
-import UIKit
+import ARKit //включает в себя библиотеку UIKit
 import RealityKit
 
 class ViewController: UIViewController {
@@ -16,10 +16,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
+        let configuration = ARFaceTrackingConfiguration()
+        arView.session.run(configuration)
+        
+        // Load the "Box" scene from the "webinar" Reality File
+        let faceAnchor = try! Webinar.loadScene()
         
         // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
+        arView.scene.anchors.append(faceAnchor)
     }
 }

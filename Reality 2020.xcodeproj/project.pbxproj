@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		012A33C32515DC260026B7FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012A33C22515DC260026B7FE /* AppDelegate.swift */; };
 		012A33C52515DC260026B7FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012A33C42515DC260026B7FE /* ViewController.swift */; };
-		012A33C72515DC260026B7FE /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 012A33C62515DC260026B7FE /* Experience.rcproject */; };
 		012A33CA2515DC260026B7FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012A33C82515DC260026B7FE /* Main.storyboard */; };
 		012A33CC2515DC270026B7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012A33CB2515DC270026B7FE /* Assets.xcassets */; };
 		012A33CF2515DC270026B7FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012A33CD2515DC270026B7FE /* LaunchScreen.storyboard */; };
+		012A33D72515E9AC0026B7FE /* Webinar.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 012A33D62515E9AC0026B7FE /* Webinar.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		012A33BF2515DC260026B7FE /* Reality 2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reality 2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		012A33C22515DC260026B7FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		012A33C42515DC260026B7FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		012A33C62515DC260026B7FE /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		012A33C92515DC260026B7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		012A33CB2515DC270026B7FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		012A33CE2515DC270026B7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		012A33D02515DC270026B7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012A33D62515E9AC0026B7FE /* Webinar.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Webinar.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				012A33C22515DC260026B7FE /* AppDelegate.swift */,
 				012A33C42515DC260026B7FE /* ViewController.swift */,
-				012A33C62515DC260026B7FE /* Experience.rcproject */,
+				012A33D62515E9AC0026B7FE /* Webinar.rcproject */,
 				012A33C82515DC260026B7FE /* Main.storyboard */,
 				012A33CB2515DC270026B7FE /* Assets.xcassets */,
 				012A33CD2515DC270026B7FE /* LaunchScreen.storyboard */,
@@ -94,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Андрей Толмачев";
 				TargetAttributes = {
 					012A33BE2515DC260026B7FE = {
@@ -140,7 +140,7 @@
 			files = (
 				012A33C52515DC260026B7FE /* ViewController.swift in Sources */,
 				012A33C32515DC260026B7FE /* AppDelegate.swift in Sources */,
-				012A33C72515DC260026B7FE /* Experience.rcproject in Sources */,
+				012A33D72515E9AC0026B7FE /* Webinar.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +192,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +253,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -287,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5T5CDDJTLR;
 				INFOPLIST_FILE = "Reality 2020/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5T5CDDJTLR;
 				INFOPLIST_FILE = "Reality 2020/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
